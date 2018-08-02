@@ -4,4 +4,7 @@ A simple example:
 <head>	
 <title>	
 <body>	
-
+<pre>	
+<small>	
+<strong>
+<form>	
