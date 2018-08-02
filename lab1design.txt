@@ -23,11 +23,7 @@ table#t1 {
 <h1>Git Commands</h1>
 <hr>
 <p>
-This paragraph
-contains a lot of lines
-in the source code,
-but the browser 
-ignores it.
+A list of some Git commands with it's description.
 </p>
 <h2>Getting & Creating Projects</h2>
 <table id="t1">
