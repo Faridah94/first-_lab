@@ -4,8 +4,4 @@ A simple example:
 <head>	
 <title>	
 <body>	
-<h1> to <h6>	
-<p>	
-<br>	
-<hr>
 
