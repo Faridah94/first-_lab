@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 15px;
+    text-align: left;
+    border:solid 1px rgb(241, 241, 241);
+
+}
+table#t1 {
+    width: 100%;    
+    background-color: rgb(255, 255, 255);
+    border:1px solid rgb(241, 241, 241);
+}
+</style>
+</head>
+<body>
+<h1>Git Commands</h1>
+<hr>
+<p>
+This paragraph
+contains a lot of lines
+in the source code,
+but the browser 
+ignores it.
+</p>
+<h2>Getting & Creating Projects</h2>
+<table id="t1">
+  <tr>
+    <th>Command</th>
+    <th>Description</th> 
+    
+  </tr>
+  <tr>
+    <td>git init</td>
+    <td>Initialize a local Git repository</td>
+  </tr>
+  <tr>
+    <td>git clone ssh://git@github.com/[username]/[repository-name].git</td>
+    <td>Create a local copy of a remote repository</td>
+  </tr>
+</table>
+<h2>Getting & Creating Projects</h2>
+<table id="t2">
+  <tr>
+    <th>Command</th>
+    <th>Description</th> 
+    
+  </tr>
+  <tr>
+    <td>git status</td>
+    <td>Check status</td>
+  </tr>
+  <tr>
+    <td>git add [file-name.txt]</td>
+    <td>Add a file to the staging area</td>
+  </tr>
+  <tr>
+    <td>git add -A</td>
+    <td>Add all new and changed files to the staging area</td>
+  </tr>
+  <tr>
+    <td>git commit -m "[commit message]"</td>
+    <td>Commit changes</td>
+  </tr>
+  <tr>
+    <td>git rm -r [file-name.txt]</td>
+    <td>Remove a file (or folder)</td>
+  </tr>
+</table>
+<h2>Branching & Merging</h2>
+<table id="t3">
+  <tr>
+    <th>Command</th>
+    <th>Description</th> 
+    
+  </tr>
+  <tr>
+    <td>git branch</td>
+    <td>List branches (the asterisk denotes the current branch)</td>
+  </tr>
+  <tr>
+    <td>git branch -a</td>
+    <td>List all branches (local and remote)</td>
+  </tr>
+  <tr>
+    <td>git branch [branch name]</td>
+    <td>Create a new branch</td>
+  </tr>
+  <tr>
+    <td>git branch -d [branch name]</td>
+    <td>Delete a branch</td>
+  </tr>
+  <tr>
+    <td>git push origin --delete [branchName]</td>
+    <td>Delete a remote branch</td>
+  </tr>
+  <tr>
+    <td>git checkout -b [branch name] origin/[branch name]</td>
+    <td>Clone a remote branch and switch to it</td>
+  </tr>
+  <tr>
+    <td>git checkout [branch name]</td>
+    <td>Switch to a branch</td>
+  </tr>
+  <tr>
+    <td>git checkout -</td>
+    <td>Switch to the branch last checked out</td>
+  </tr>
+  <tr>
+    <td>git checkout -- [file-name.txt]</td>
+    <td>Merge a branch into the active branch</td>
+  </tr>
+  <tr>
+    <td>git merge [source branch] [target branch]</td>
+    <td>Merge a branch into a target branch</td>
+  </tr>
+  <tr>
+    <td>git stash</td>
+    <td>Stash changes in a dirty working directory</td>
+  </tr>
+  <tr>
+    <td>git stash clear</td>
+    <td>Remove all stashed entries</td>
+  </tr>
+</table>
+
+<h3>For more Git commands you can go here:</h3>
+<a href="https://github.com/joshnh/Git-Commands">Git commands</a>
+
+<h3>or here :</h3>
+<iframe width="620" height="345" src="https://www.youtube.com/playlist?list=PLRqwX-V7Uu6ZF9C0YMKuns9sLDzK6zoiV">
+</iframe>
+
+<p>or you can do as i did being a re-coded student and learning alot of new things in <a href="">Git</a> *</p>
+
+<!-- you can see my lab-1 page for other tags i have learnt through my learning journy-->
+</body>
+</html>
