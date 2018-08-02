@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+img {
+  border-radius: 50%;
+  margin-left:35%;
+}
+#AboutMe{
+   text-align:center;
+}
+.fa {
+  padding: 20px;
+  font-size: 20px;
+  width: 20px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: white;
+  color: #3B5998;
+}
+
+.fa-twitter {
+  background:white ;
+  color:#55ACEE ;
+}
+
+.fa-google {
+  background:white ;
+  color: #dd4b39;
+}
+
+.fa-linkedin {
+  background:white ;
+  color: #007bb5 ;
+}
+
+.fa-youtube {
+  background:white ;
+  color: #bb0000;
+}
+
+.fa-instagram {
+  background: white ;
+  color:#125688 ;
+}
+
+.fa-pinterest {
+  background: white ;
+  color: #cb2027 ;
+}
+</style>
+</head>
+<body>
+
+<h2>Rounded Images</h2>
+
+<img src="img_avatar.png" alt="Avatar" style="width:200px">
+<div id="AboutMe">
+<h2>A Brief Introduction</h2>
+<pre>
+       My name is Farida or you can call me (Ferry) 
+I love reading, nature and animals. enjoy learning new things.
+I enjoy programming and learning its languages so I practice 
+     this period in re-coded to develop my skills.
+
+I love being a truth seeker. I believe that within every human
+being there is a beautiful thing that can be quoted so do not
+        hesitate to know about me and my little world.
+           You can find me at:
+
+</pre>
+<div>
+
+<a href="#" class="fa fa-facebook"></a>
+<a href="#" class="fa fa-twitter"></a>
+<a href="#" class="fa fa-google"></a>
+<a href="#" class="fa fa-linkedin"></a>
+<a href="#" class="fa fa-youtube"></a>
+<a href="#" class="fa fa-instagram"></a>
+<a href="#" class="fa fa-pinterest"></a>
+
+
+</body>
+</html> 
